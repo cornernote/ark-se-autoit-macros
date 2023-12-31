@@ -27,8 +27,11 @@ EndFunc
 
 While True
    If $click Then
-	  MouseClick("left", 1290, 280, 1)
-	  MouseClick("left", 1000, 615, 1)
+	  MouseClick("left", 1290, 280, 1, 10)
+	  Sleep(2)
+	  MouseClick("left", 1000, 615, 1, 0)
+ 	  Sleep(2)
+   Else
+      Sleep(100)
    EndIf
-   Sleep(20)
-WEnd
+ WEnd
