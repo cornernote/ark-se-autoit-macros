@@ -3,7 +3,6 @@
 ;
 ; Instructions
 ; - open the creature's inventory
-; - search so that only one item is displayed
 ; - press CTRL+SHIFT+C to toggle the clicker to run 254 times
 ; - press CTRL+SHIFT+X to exit
 
@@ -28,7 +27,7 @@ While True
    If $click > 0 Then
       $click = $click - 1
 	  MouseClick("left")
- 	  Sleep(20)
+ 	  ;Sleep(20)
    Else
       Sleep(100)
    EndIf
