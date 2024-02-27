@@ -1,4 +1,4 @@
-HotKeySet("{ESC}" , "close")
+HotKeySet("^X" , "close")
 HotKeySet("^C" , "startpause")
 
 Dim $click = False
@@ -18,8 +18,7 @@ EndFunc
 While 1
    If $click = True Then
 	  MouseClick("left")
-	  Sleep(10)
-	  ;Send("W")
+	  Sleep(1000)
    Else
 	  Sleep(100)
    EndIf

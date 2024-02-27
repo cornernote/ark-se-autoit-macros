@@ -23,11 +23,20 @@ EndFunc
 
 Func start()
    ; total = 559
-   $weight = 30
-   $crafting = 5
+   ;$weight = 36
+   ;$crafting = 5
+   ;$fortitude = 10
+   ;$health = 254
+   ;$melee = 0
+   ;$movement = 254
+   ;$oxygen = 0
+
+   ; total = 559
+   $weight = 10
+   $crafting = 10
    $fortitude = 10
    $health = 254
-   $melee = 6
+   $melee = 21
    $movement = 254
    $oxygen = 0
 EndFunc
@@ -55,5 +64,5 @@ While True
       $oxygen = $oxygen - 1
 	  MouseClick("left", 1150, 600)
    EndIf
-   Sleep(800)
+   Sleep(1000)
 WEnd
